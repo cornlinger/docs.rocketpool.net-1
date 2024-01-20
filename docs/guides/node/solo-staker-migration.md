@@ -318,7 +318,7 @@ You can also verify that a chain explorer such as [https://beaconcha.in](https:/
 ## Step 4: Assign the Correct Fee Recipient
 
 Once you've started the migration process, it is **imperative** that you ensure your [fee recipient](./fee-distrib-sp#fee-recipients) is set properly (either to your node's [fee distributor](./fee-distrib-sp#your-fee-distributor) or to the [Smoothing Pool](./fee-distrib-sp#the-smoothing-pool) if you have opted into it).
-If you do not do this and leave it on the fee recipient for your solo validators, you will be penalized and a portion of your Beacon Chain stake will be deducted to compensate for the loss.
+If you do not do this and leave it on the fee recipient for your solo validators, you will be penalized and a portion of your Beacon Chain stake will be deducted to compensate for the loss. You can find your node's fee distributor/the correct smoothing pool address with the `rocketpool node status` command. 
 
 ::: tip NOTE
 **This step is only required if you leave your validator key in your own externally-managed Validator Client.**
